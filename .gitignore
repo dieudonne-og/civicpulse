@@ -1,0 +1,36 @@
+/uploads/
+/logs/
+config/config.php
+*.log
+*.tmp
+vendor/
+node_modules/
+.DS_Store
+Thumbs.db
+# IDE and OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+# Composer dependencies
+composer.lock
+# Node build outputs
+dist/
+build/
+# Test outputs
+coverage/
+# Database exports
+*.sql
+# Environment files
+.env
+.env.*
+# Backup files
+*.bak
+*.old
+*.orig
+*.save
+# PHPStan and PHPUnit cache
+.phpstan/cache
+.phpunit.result.cache
+# Security: never commit secrets or personal data
+# See SECURITY.md for more details
